@@ -80,6 +80,9 @@ public class Config {
 ```
 *Replace the URLS respectively to the uploaded files*
 
+##That's it!
+No need to say Thanks, just don't forget to have fun!
+>"There is no time like present, I guess"
 
 ## Screenshots
 
