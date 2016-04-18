@@ -2,7 +2,7 @@
     <string name="app_name">Registration Bootstrap</string>
     <string name="title_activity_main2">Main2Activity</string>
 
-    <string name="facebook_app_id">YOUR FACEBOOK APP IP</string>
+    <string name="facebook_app_id">YOUR FACEBOOK APP ID</string>
 
     <string name="hint_name">Enter Name</string>
     <string name="hint_email">Enter Email</string>
