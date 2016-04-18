@@ -7,6 +7,53 @@ It could sometimes be a real pain in ass just to develop this system again n aga
 First things first, we need to implement a servide api for our app.
 
 ###Server Side
+Upload the contents of 'Foodie Doodie API' folder into your web host or local host.
+
+*Make sure the scripts have a priviledge of '0775'*
+
+####Create a database and Tables in Mysql 
+```CREATE DATABASE my_db;```
+```
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `unique_id` varchar(23) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `image` mediumtext NOT NULL,
+  `encrypted_password` varchar(80) NOT NULL,
+  `salt` varchar(10) NOT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `unique_id` (`unique_id`),
+  UNIQUE KEY `email` (`email`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+```
+```
+CREATE TABLE IF NOT EXISTS `users_fb` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `unique_id` varchar(255) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `image` mediumtext NOT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `unique_id` (`unique_id`),
+  UNIQUE KEY `email` (`email`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+```
+
+####Modify include/Config.php
+```
+<?php
+define("DB_HOST", "localhost");
+define("DB_USER", "user");
+define("DB_PASSWORD", "password");
+define("DB_DATABASE", "db");
+?>
+```
+Change localhost with your host, user with Database user , password with Databse user's password and db with Database name
 
 
 ## Screenshots
