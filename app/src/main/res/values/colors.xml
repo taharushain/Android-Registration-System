@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorText">#F4F300</color>
+    <color name="colorDivider">#fff</color>
+    <color name="colorLoginBackground">#3b4148</color>
+    <color name="colorLoginView">#222222</color>
+    <color name="colorLoginHint">#999999</color>
+    <color name="colorLoginText">#fff</color>
+    <color name="colorRegisterBackground">#3b4148</color>
+    <color name="colorRegisterView">#222222</color>
+    <color name="colorRegisterHint">#999999</color>
+    <color name="colorRegisterText">#fff</color>
+</resources>
