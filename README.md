@@ -55,6 +55,31 @@ define("DB_DATABASE", "db");
 ```
 Change localhost with your host, user with Database user , password with Databse user's password and db with Database name
 
+###Client Side (Android)
+Import the project in Android Studio and run gradle to sync libraries.
+####Modify /app/src/main/res/values/strings.xml
+```
+<string name="facebook_app_id">YOUR FACEBOOK APP ID</string>
+```
+*Create a Facebook app and paste your APP ID here*
+All the information regarding this process has been provided by [Facebook] (https://developers.facebook.com/docs/facebook-login/android)
+
+###Modify /app/src/main/java/com/codelycan/foodiedoodie/Util/Config.java
+```
+package com.codelycan.foodiedoodie.Util;
+/**
+ * Created by trushain on 4/16/16.
+ */
+public class Config {
+
+    public static String URL_LOGIN = "http://localhost/folder/register.php";
+
+    // Server user register url
+    public static String URL_REGISTER = "http://localhost/folder/register.php";
+}
+```
+*Replace the URLS respectively to the uploaded files*
+
 
 ## Screenshots
 
