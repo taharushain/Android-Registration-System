@@ -5,7 +5,7 @@ package com.codelycan.foodiedoodie.Util;
  */
 public class Config {
 
-    public static String URL_LOGIN = "http://localhost/folder/register.php";
+    public static String URL_LOGIN = "http://localhost/folder/login.php";
 
     // Server user register url
     public static String URL_REGISTER = "http://localhost/folder/register.php";
