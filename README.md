@@ -6,12 +6,12 @@ It could sometimes be a real pain in ass just to develop this system again n aga
 ## Getting Started
 First things first, we need to implement a server side api for our app.
 
-###Server Side
+### Server Side
 Upload the contents of 'Foodie Doodie API' folder into your web host or local host.
 
 *Make sure the scripts have a priviledge of '0775'*
 
-####Create a database and Tables in Mysql 
+#### Create a database and Tables in Mysql 
 ```CREATE DATABASE my_db;```
 ```
 CREATE TABLE IF NOT EXISTS `users` (
@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `users_fb` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
 ```
 
-####Modify include/Config.php
+#### Modify include/Config.php
 ```
 <?php
 define("DB_HOST", "localhost");
@@ -55,16 +55,16 @@ define("DB_DATABASE", "db");
 ```
 Change localhost with your host, user with Database user , password with Databse user's password and db with Database name
 
-###Client Side (Android)
+### Client Side (Android)
 Import the project in Android Studio and run gradle to sync libraries.
-####Modify /app/src/main/res/values/strings.xml
+#### Modify /app/src/main/res/values/strings.xml
 ```
 <string name="facebook_app_id">YOUR FACEBOOK APP ID</string>
 ```
 *Create a Facebook app and paste your APP ID here*
 All the information regarding this process has been provided by [Facebook] (https://developers.facebook.com/docs/facebook-login/android)
 
-###Modify /app/src/main/java/com/codelycan/foodiedoodie/Util/Config.java
+### Modify /app/src/main/java/com/codelycan/foodiedoodie/Util/Config.java
 ```
 package com.codelycan.foodiedoodie.Util;
 /**
