@@ -4,7 +4,7 @@ This project is developed to help bootstrap user login/registration system along
 It could sometimes be a real pain in ass just to develop this system again n again for different projects specially when other APIs are to be incorporated. 
 
 ## Getting Started
-First things first, we need to implement a servide api for our app.
+First things first, we need to implement a server side api for our app.
 
 ###Server Side
 Upload the contents of 'Foodie Doodie API' folder into your web host or local host.
