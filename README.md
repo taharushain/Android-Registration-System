@@ -1,3 +1,8 @@
+***
+THIS PROJECT IS DISCONTINUED.
+Please goto [Android-Registration-System-v2](https://github.com/taharushain/android-registration-system-v2) for the updated continual of this.
+***
+
 # Android-Registration-System
 
 This project is developed to help bootstrap user login/registration system along with the support of Facebook API.
